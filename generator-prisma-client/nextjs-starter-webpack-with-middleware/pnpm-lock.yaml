@@ -9,11 +9,11 @@ dependencies:
     specifier: 6.11.0-integration-fix-generator-ts-pre-preview.1
     version: 6.11.0-integration-fix-generator-ts-pre-preview.1(pg@8.16.2)
   '@prisma/client':
-    specifier: 6.11.0-integration-fix-generator-ts-pre-preview.1
-    version: 6.11.0-integration-fix-generator-ts-pre-preview.1(prisma@6.11.0-integration-fix-generator-ts-pre-preview.1)(typescript@5.8.3)
+    specifier: 6.16.1
+    version: 6.16.1(prisma@6.11.0-integration-fix-generator-ts-pre-preview.1)(typescript@5.8.3)
   '@prisma/extension-accelerate':
     specifier: 2.0.2
-    version: 2.0.2(@prisma/client@6.11.0-integration-fix-generator-ts-pre-preview.1)
+    version: 2.0.2(@prisma/client@6.16.1)
   '@t3-oss/env-core':
     specifier: 0.13.8
     version: 0.13.8(typescript@5.8.3)(zod@3.25.71)
@@ -754,8 +754,8 @@ packages:
       postgres-array: 3.0.4
     dev: false
 
-  /@prisma/client@6.11.0-integration-fix-generator-ts-pre-preview.1(prisma@6.11.0-integration-fix-generator-ts-pre-preview.1)(typescript@5.8.3):
-    resolution: {integrity: sha512-N9E6i5mUwJe0zO4tgh89Zneivy3/CzUTYE6cv20MfC3SEJy+S29UCqqG2xiQv0lqTGQNIq/pjzW1DQsQYwaOGQ==}
+  /@prisma/client@6.16.1(prisma@6.11.0-integration-fix-generator-ts-pre-preview.1)(typescript@5.8.3):
+    resolution: {integrity: sha512-QaBCOY29lLAxEFFJgBPyW3WInCW52fJeQTmWx/h6YsP5u0bwuqP51aP0uhqFvhK9DaZPwvai/M4tSDYLVE9vRg==}
     engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:
@@ -797,13 +797,13 @@ packages:
       '@prisma/fetch-engine': 6.11.0-integration-fix-generator-ts-pre-preview.1
       '@prisma/get-platform': 6.11.0-integration-fix-generator-ts-pre-preview.1
 
-  /@prisma/extension-accelerate@2.0.2(@prisma/client@6.11.0-integration-fix-generator-ts-pre-preview.1):
+  /@prisma/extension-accelerate@2.0.2(@prisma/client@6.16.1):
     resolution: {integrity: sha512-yZK6/k7uOEFpEsKoZezQS1CKDboPtBCQ0NyI70e1Un8tDiRgg80iWGyjsJmRpps2ZIut3MroHP+dyR3wVKh8lA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@prisma/client': '>=4.16.1'
     dependencies:
-      '@prisma/client': 6.11.0-integration-fix-generator-ts-pre-preview.1(prisma@6.11.0-integration-fix-generator-ts-pre-preview.1)(typescript@5.8.3)
+      '@prisma/client': 6.16.1(prisma@6.11.0-integration-fix-generator-ts-pre-preview.1)(typescript@5.8.3)
     dev: false
 
   /@prisma/fetch-engine@6.11.0-integration-fix-generator-ts-pre-preview.1:
