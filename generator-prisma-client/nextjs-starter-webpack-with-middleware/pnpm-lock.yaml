@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@prisma/adapter-pg':
-    specifier: 6.11.0-integration-fix-generator-ts-pre-preview.1
-    version: 6.11.0-integration-fix-generator-ts-pre-preview.1(pg@8.16.2)
+    specifier: 6.16.1
+    version: 6.16.1
   '@prisma/client':
     specifier: 6.11.0-integration-fix-generator-ts-pre-preview.1
     version: 6.11.0-integration-fix-generator-ts-pre-preview.1(prisma@6.11.0-integration-fix-generator-ts-pre-preview.1)(typescript@5.8.3)
@@ -744,14 +744,14 @@ packages:
     dev: false
     optional: true
 
-  /@prisma/adapter-pg@6.11.0-integration-fix-generator-ts-pre-preview.1(pg@8.16.2):
-    resolution: {integrity: sha512-rpZTjWRjyCvXhDb8Cx5dBcfbgSkVRG2on821eHFzWJViQMBBzYdVVhsxyw6pHqek89toFjLHto1ZHZAgijgS+w==}
-    peerDependencies:
-      pg: ^8.11.3
+  /@prisma/adapter-pg@6.16.1:
+    resolution: {integrity: sha512-byMXfxRt/TvmRYf6X7mDW7ZBGbVheOUP9/m2EM0BKf6JaygEE+wyGu0t2TPT/3YXFxRN8/WBWX80xCAsrMQA2A==}
     dependencies:
-      '@prisma/driver-adapter-utils': 6.11.0-integration-fix-generator-ts-pre-preview.1
+      '@prisma/driver-adapter-utils': 6.16.1
       pg: 8.16.2
       postgres-array: 3.0.4
+    transitivePeerDependencies:
+      - pg-native
     dev: false
 
   /@prisma/client@6.11.0-integration-fix-generator-ts-pre-preview.1(prisma@6.11.0-integration-fix-generator-ts-pre-preview.1)(typescript@5.8.3):
@@ -779,10 +779,14 @@ packages:
   /@prisma/debug@6.11.0-integration-fix-generator-ts-pre-preview.1:
     resolution: {integrity: sha512-U9zSFZktKjX6V39ugrrZba7R1Nrv93LUxZ56glZth5NdDNdCfPhUy0W1Ne1DFhb1ieE6lRo7p+hY1Mu3qRI6lQ==}
 
-  /@prisma/driver-adapter-utils@6.11.0-integration-fix-generator-ts-pre-preview.1:
-    resolution: {integrity: sha512-0IEV0srN9zkfXY7g4SuHNOQ7zNwEHHhdCXx60yt6ScwFgtUK8iO2PrfygBLD3IavlwotSW4NbsAYfhxRJjiO0A==}
+  /@prisma/debug@6.16.1:
+    resolution: {integrity: sha512-RWv/VisW5vJE4cDRTuAHeVedtGoItXTnhuLHsSlJ9202QKz60uiXWywBlVcqXVq8bFeIZoCoWH+R1duZJPwqLw==}
+    dev: false
+
+  /@prisma/driver-adapter-utils@6.16.1:
+    resolution: {integrity: sha512-NyAxvAoe5eICBVwnizswcIaa/WvlqKK3W12afLco6XCN5viqkDpo7DQEcArLCpEBADTWmfPfJUxKclqwZPDb9Q==}
     dependencies:
-      '@prisma/debug': 6.11.0-integration-fix-generator-ts-pre-preview.1
+      '@prisma/debug': 6.16.1
     dev: false
 
   /@prisma/engines-version@6.11.0-8.9fb012f2651f737d6adc016054d30c6e075b4b86:
