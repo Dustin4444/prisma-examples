@@ -11,8 +11,8 @@
   "dependencies": {
     "@prisma/client": "6.10.1",
     "@prisma/extension-accelerate": "2.0.2",
-    "better-auth": "1.2.12",
-    "next": "15.3.5",
+    "better-auth": "1.4.3",
+    "next": "15.3.6",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
