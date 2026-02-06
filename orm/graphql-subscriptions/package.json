@@ -16,7 +16,7 @@
     "trailingComma": "all"
   },
   "dependencies": {
-    "@apollo/server": "4.12.2",
+    "@apollo/server": "5.4.0",
     "@prisma/client": "6.9.0",
     "body-parser": "2.2.0",
     "cors": "2.8.5",
