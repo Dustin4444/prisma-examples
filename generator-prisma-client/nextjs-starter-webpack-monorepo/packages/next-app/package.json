@@ -26,8 +26,8 @@
   "dependencies": {
     "@nextjs-starter-webpack-monorepo/prisma": "workspace:*",
     "@t3-oss/env-core": "0.13.10",
-    "next": "15.3.8",
-    "postcss": "8.5.8",
+    "next": "16.1.7",
+    "postcss": "8.5.10",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-hot-toast": "2.5.2",
@@ -39,7 +39,7 @@
     "@types/react": "19.1.8",
     "@types/react-dom": "19.1.6",
     "autoprefixer": "10.4.27",
-    "eslint": "8.57.1",
+    "eslint": "9.26.0",
     "eslint-config-next": "15.3.8",
     "tsx": "4.20.6",
     "typescript": "5.8.3"
