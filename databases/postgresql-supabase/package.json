@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@types/node": "22.18.12",
-    "prisma": "7.0.0",
+    "prisma": "7.6.0",
     "supabase": "2.82.0",
     "typescript": "5.8.2",
     "tsx": "4.21.0",
